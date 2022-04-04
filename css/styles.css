@@ -37,6 +37,11 @@ p {
   margin-bottom: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
