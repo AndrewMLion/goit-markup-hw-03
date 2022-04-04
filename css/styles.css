@@ -229,17 +229,14 @@ img {
 
 .doing .list {
   display: flex;
-  flex-basis: calc((100% - 90px) / 3);
 }
 
-.doing .list .pic {
-  display: block;
-  /* width: calc((100% - 90px) / 3); */
-  margin-right: 30px;
+.list > .pic {
+flex-basis: calc(100% - 60px/3);
 }
 
-.doing .list .pic:last-child {
-  margin-right: 0;
+.list  > .pic + .pic {
+  margin-left: 30px;
 }
 
 /* Team */
