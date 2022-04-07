@@ -387,6 +387,8 @@ flex-basis: calc(100% - 60px/3);
 
   font-weight: 500;
   line-height: 1.62;
+
+  cursor: pointer;
 }
 
 .button.link {
